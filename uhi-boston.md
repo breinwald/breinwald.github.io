@@ -5,9 +5,8 @@ This study examines urban heat island patterns across Boston, Massachusetts and 
 
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
 
-### Land Surface Temperature (LST)
 ![LST Map](images/lst_map.png)
-Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston. 
+Figure 1. Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston. 
 
 ### Residual LST (Observed vs Expected)
 ![Residual Map](images/residual_map.png)
