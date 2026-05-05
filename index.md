@@ -4,4 +4,3 @@
 - ## Links
 - [LinkedIn](https://linkedin.com/in/benjaminreinwald)
 - [Resume](./resume.pdf)
-- 
