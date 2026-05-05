@@ -2,10 +2,12 @@
 
 ## Study Area and Data
 This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The aerial imagery used in the study was collected on July 30, 2025, which was selected based on minimal cloud cover and high air temperatures (~86°F), to provide reliable land surface temperature data and to capture peak urban heat island conditions.
+
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
 
 ### Land Surface Temperature (LST)
 ![LST Map](images/lst_map.png)
+Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston. 
 
 ### Residual LST (Observed vs Expected)
 ![Residual Map](images/residual_map.png)
