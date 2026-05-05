@@ -4,6 +4,12 @@ This study examines urban heat island patterns across Boston, Massachusetts and 
 
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
 
+## Methods
+- Landsat 9 used to derive LST, NDVI, and NDBI
+- Demographic data agreggated to Census tract-level using zonal statistics
+- Correlation and regression analysis
+- Heat Vulnerability Index created by normalizing and averaging LST, percent minority, and poverty rate variables
+
 ![LST Map](images/lst_map.png)
 Figure 1. Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston. The regression model (y=-34.2x+46.8) indicated an inverse relationship between NDVI and land surface temperature, and was used to create the residual LST map. 
 
@@ -21,12 +27,6 @@ Figure 4. Priority heat intervention areas were identified by combining binary v
 - Vegetation is strongly associated with lower surface temperatures
 - Socially vulnerable populations are disproportionately exposed to high temperatures
 - Priority heat intervention areas identified across Boston and adjacent municipalities
-
-## Methods
-- Landsat 9 used to derive LST, NDVI, and NDBI
-- Demographic data agreggated to Census tract-level using zonal statistics
-- Correlation and regression analysis
-- Heat Vulnerability Index created by normalizing and averaging LST, percent minority, and poverty rate variables
 
 ## Full Report
 [Download Full Report](./UHI_Analysis.pdf)
