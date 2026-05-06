@@ -1,13 +1,13 @@
 # Urban Heat Island Equity Analysis - Boston, MA
 
-This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The aerial imagery used in the study was collected on July 30, 2025, which was selected based on minimal cloud cover and high air temperatures (~86°F), to provide reliable land surface temperature data and to capture peak urban heat island conditions.
+This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The satellite imagery used in the study was collected on July 30, 2025, which was selected based on minimal cloud cover and high air temperatures (~86°F), to provide reliable land surface temperature data and to capture peak urban heat island conditions.
 
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
 
 ## Methods
 - Landsat 9 used to derive LST, NDVI, and NDBI
 - Demographic data agreggated to Census tract-level using zonal statistics
-- Correlation and regression analysis
+- Correlation and regression analysis on LST vs independent variables (NDVI, NDBI, median income, percent minority, poverty rate)
 - Heat Vulnerability Index created by normalizing and averaging LST, percent minority, and poverty rate variables
 
 ![LST Map](images/lst_map.png)
@@ -25,7 +25,7 @@ Figure 4. Priority heat intervention areas were identified by combining binary v
 ## Key Findings
 - Built environment is the primary driver of urban heat
 - Vegetation is strongly associated with lower surface temperatures
-- Socially vulnerable populations are disproportionately exposed to high temperatures
+- There is disproportionate spatial overlap between socially vulnerable populations and exposure to high temperatures
 - Priority heat intervention areas identified across Boston and adjacent municipalities
 
 ## Full Report
