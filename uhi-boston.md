@@ -39,9 +39,9 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 - Landsat 9 used to derive LST, NDVI, & NDBI.
 - Demographic data aggregated to census tract level using zonal statistics.
 - Correlation & regression analysis on LST vs. independent variables: NDVI, NDBI, median income, percent minority, & poverty rate.
-- Residual LST was calculated as the difference between observed & predicted LST based on the regression model between LST & NDVI.
+- Residual LST calculated as the difference between observed & predicted LST based on the regression model between LST & NDVI.
 - Heat Vulnerability Index created by normalizing and averaging LST, percent minority, & poverty rate variables.
-- Urban heat intervention priority areas were identified by summing binary values for the top 10% highest LST, 25% highest NDBI, & 20% highest HVI tracts.
+- Urban heat intervention priority areas identified by summing binary values for the top 10% highest LST, 25% highest NDBI, & 20% highest HVI tracts.
 
 ## Visualizations
 
