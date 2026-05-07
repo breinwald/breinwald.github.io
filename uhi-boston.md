@@ -52,32 +52,32 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure chart">
   <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure X.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and land surface temperature. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
+  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and land surface temperature. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
 </div>
 
 <div class="figure">
   <img src="images/residual_map.png" alt="Residual land surface temperature map of Boston census tracts">
-  <p class="caption"><strong>Figure 2.</strong> Several neighborhoods in northern Boston and parts of Roxbury, Dorchester, and South Boston exhibit positive residuals, indicating factors beyond vegetation, such as building density and impervious surfaces, are contributing to higher temperatures. Coastal areas exhibit negative residuals likely due to cooling effects of the Atlantic Ocean and the Charles River.</p>
+  <p class="caption"><strong>Figure 3.</strong> Several neighborhoods in northern Boston and parts of Roxbury, Dorchester, and South Boston exhibit positive residuals, indicating factors beyond vegetation, such as building density and impervious surfaces, are contributing to higher temperatures. Coastal areas exhibit negative residuals likely due to cooling effects of the Atlantic Ocean and the Charles River.</p>
 </div>
 
 <div class="figure">
   <img src="images/hvi_map.png" alt="Heat Vulnerability Index map of Boston census tracts">
-  <p class="caption"><strong>Figure 3.</strong> Census tracts in Roxbury, the South End, South Boston, Dorchester, Allston, Medford, Everett, Revere, and Chelsea contain the highest HVI values. These are locations where both environmental risk and social vulnerability factors are present.</p>
+  <p class="caption"><strong>Figure 4.</strong> Census tracts in Roxbury, the South End, South Boston, Dorchester, Allston, Medford, Everett, Revere, and Chelsea contain the highest HVI values. These are locations where both environmental risk and social vulnerability factors are present.</p>
 </div>
 
 <div class="figure chart">
   <img src="images/hvi_barchart.png" alt="Average land surface temperature by Heat Vulnerability Index group" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 4.</strong> Census tracts in the top 20% of the Heat Vulnerability Index experience average land surface temperatures approximately 2.6°C higher than the rest of the study area.</p>
+  <p class="caption"><strong>Figure 5.</strong> Census tracts in the top 20% of the Heat Vulnerability Index experience average land surface temperatures approximately 2.6°C higher than the rest of the study area.</p>
 </div>
 
 <div class="figure chart">
   <img src="images/pctmin_boxplot.png" alt="Distribution of land surface temperature by minority population group" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 5.</strong> Lower-minority census tracts exhibit a wider temperature range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
+  <p class="caption"><strong>Figure 6.</strong> Lower-minority census tracts exhibit a wider temperature range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
 </div>
 
 <div class="figure">
   <img src="images/priority_map.png" alt="Urban heat intervention priority areas map of Boston">
-  <p class="caption"><strong>Figure 6.</strong> Urban heat intervention priority areas were identified by combining binary values for the top 10% highest LST, 25% highest NDBI, and 20% highest HVI tracts. A priority score was calculated as the sum of these values. The highest priority areas are in South Boston, the South End, Roxbury, Allston, Chelsea, Everett, Medford, and East Boston.</p>
+  <p class="caption"><strong>Figure 7.</strong> Urban heat intervention priority areas were identified by combining binary values for the top 10% highest LST, 25% highest NDBI, and 20% highest HVI tracts. A priority score was calculated as the sum of these values. The highest priority areas are in South Boston, the South End, Roxbury, Allston, Chelsea, Everett, Medford, and East Boston.</p>
 </div>
 
 ## Key Findings
