@@ -47,12 +47,12 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure">
   <img src="images/lst_map.png" alt="Land surface temperature map of Boston census tracts">
-  <p class="caption"><strong>Figure 1.</strong> Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston. The regression model (y = -34.2x + 46.8) indicated an inverse relationship between NDVI and land surface temperature, and was used to create the residual LST map.</p>
+  <p class="caption"><strong>Figure 1.</strong> Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston.</p>
 </div>
 
 <div class="figure chart">
   <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and land surface temperature. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
+  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and land surface temperature, and was used to create the residual LST map. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
 </div>
 
 <div class="figure">
@@ -72,7 +72,7 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure chart">
   <img src="images/pctmin_boxplot.png" alt="Distribution of land surface temperature by minority population group" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 6.</strong> Lower-minority census tracts exhibit a wider temperature range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
+  <p class="caption"><strong>Figure 6.</strong> Census tracts with a lower percentage of minority population exhibit a wider temperature range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
 </div>
 
 <div class="figure">
