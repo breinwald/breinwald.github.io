@@ -61,12 +61,12 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 </div>
 
 <div class="figure chart">
-  <img src="images/hvi_barchart.png" alt="Average land surface temperature by Heat Vulnerability Index group">
+  <img src="images/hvi_barchart.png" alt="Average land surface temperature by Heat Vulnerability Index group" style="border: 1px solid #999; border-radius: 4px;">
   <p class="caption"><strong>Figure 4.</strong> Census tracts in the top 20% of the Heat Vulnerability Index experience average land surface temperatures approximately 2.6°C higher than the rest of the study area.</p>
 </div>
 
 <div class="figure chart">
-  <img src="images/pctmin_boxplot.png" alt="Distribution of land surface temperature by minority population group">
+  <img src="images/pctmin_boxplot.png" alt="Distribution of land surface temperature by minority population group" style="border: 1px solid #999; border-radius: 4px;">
   <p class="caption"><strong>Figure 5.</strong> Lower-minority census tracts exhibit a wider temperature range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
 </div>
 
