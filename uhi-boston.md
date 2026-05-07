@@ -36,12 +36,12 @@ This study examines urban heat island patterns across Boston, Massachusetts and 
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
 
 ## Workflow
-- Landsat 9 used to derive LST, NDVI, and NDBI.
+- Landsat 9 used to derive LST, NDVI, & NDBI.
 - Demographic data aggregated to census tract level using zonal statistics.
-- Correlation and regression analysis on LST vs. independent variables: NDVI, NDBI, median income, percent minority, and poverty rate.
-- Residual LST was calculated as the difference between observed and predicted LST based on the regression model between LST and NDVI.
-- Heat Vulnerability Index created by normalizing and averaging LST, percent minority, and poverty rate variables.
-- Urban heat intervention priority areas were identified by summing binary values for the top 10% highest LST, 25% highest NDBI, and 20% highest HVI tracts.
+- Correlation & regression analysis on LST vs. independent variables: NDVI, NDBI, median income, percent minority, & poverty rate.
+- Residual LST was calculated as the difference between observed & predicted LST based on the regression model between LST & NDVI.
+- Heat Vulnerability Index created by normalizing and averaging LST, percent minority, & poverty rate variables.
+- Urban heat intervention priority areas were identified by summing binary values for the top 10% highest LST, 25% highest NDBI, & 20% highest HVI tracts.
 
 ## Visualizations
 
