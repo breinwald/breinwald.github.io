@@ -81,10 +81,10 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 </div>
 
 ## Key Findings
-- Built environment is the primary driver of urban heat, while proximity to bodies of water has a significant cooling effect.
-- Vegetation is strongly associated with lower surface temperatures, while percent minority population and poverty rate show weaker but still meaningful spatial relationships with higher LST.
+- Built environment is the primary driver of urban heat and proximity to bodies of water has a significant cooling effect.
+- Vegetation is strongly associated with lower LST, while percent minority population and poverty rate show weaker but still meaningful spatial relationships with higher LST.
 - Socially vulnerable populations are located disproportionately in areas with higher exposure to extreme heat.
-- Priority heat intervention areas were identified in South Boston, the South End, Roxbury, Allston, Chelsea, Everett, Medford, and East Boston. These areas would benefit from targeted urban cooling strategies such as green infrastructure, reflective pavements or roofing, tree planting, and water features.
+- Urban heat intervention priority areas were identified in South Boston, the South End, Roxbury, Allston, Chelsea, Everett, Medford, and East Boston. These areas would benefit from targeted urban cooling strategies such as green infrastructure, reflective pavements or roofing, tree planting, and water features.
 
 ## Full Report
 [Download Full Report](./UHI_Analysis.pdf)
