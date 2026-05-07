@@ -4,7 +4,7 @@ This study examines urban heat island patterns across Boston, Massachusetts and 
 
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
 
-## Methods
+## Workflow
 - Landsat 9 used to derive LST, NDVI, and NDBI
 - Demographic data agreggated to Census tract-level using zonal statistics
 - Correlation and regression analysis on LST vs independent variables (NDVI, NDBI, median income, percent minority, poverty rate)
@@ -26,7 +26,7 @@ Figure 4. Priority heat intervention areas were identified by combining binary v
 - Built environment is the primary driver of urban heat
 - Vegetation is strongly associated with lower surface temperatures
 - There is disproportionate spatial overlap between socially vulnerable populations and exposure to high temperatures
-- Priority heat intervention areas identified across Boston and adjacent municipalities
+- Priority heat intervention areas identified in South Boston, the South End, Roxbury, Allston, Chelsea, Everett, Medford, and East Boston.
 
 ## Full Report
 [Download Full Report](./UHI_Analysis.pdf)
