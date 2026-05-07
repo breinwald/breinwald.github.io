@@ -50,6 +50,11 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
   <p class="caption"><strong>Figure 1.</strong> Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston. The regression model (y = -34.2x + 46.8) indicated an inverse relationship between NDVI and land surface temperature, and was used to create the residual LST map.</p>
 </div>
 
+<div class="figure chart">
+  <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature" style="border: 1px solid #999; border-radius: 4px;">
+  <p class="caption"><strong>Figure X.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and land surface temperature. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
+</div>
+
 <div class="figure">
   <img src="images/residual_map.png" alt="Residual land surface temperature map of Boston census tracts">
   <p class="caption"><strong>Figure 2.</strong> Several neighborhoods in northern Boston and parts of Roxbury, Dorchester, and South Boston exhibit positive residuals, indicating factors beyond vegetation, such as building density and impervious surfaces, are contributing to higher temperatures. Coastal areas exhibit negative residuals likely due to cooling effects of the Atlantic Ocean and the Charles River.</p>
