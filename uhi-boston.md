@@ -33,10 +33,10 @@
 
 This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The satellite imagery used in the study was collected on July 30, 2025, which was selected because of minimal cloud cover and high air temperatures (~86°F) to provide reliable land surface temperature (LST) data and to capture peak urban heat island conditions.
 
-Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
+Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey (ACS) 5-year estimates; accessed via NHGIS (IPUMS).
 
 ## Workflow
-- Landsat 9 used to derive LST, NDVI, & NDBI. Data aggregated to census tract level using zonal statistics.
+- Landsat 9 used to derive LST, vegetation (NDVI), & built-up (NDBI) indices. Data aggregated to census tract level using zonal statistics.
 - Percent minority & poverty rate derived from ACS data and joined to census tract geometries.
 - Correlation & regression analysis on LST vs. independent variables: NDVI, NDBI, median income, percent minority, & poverty rate.
 - Residual LST calculated as the difference between observed & predicted LST based on the regression model between LST & NDVI.
@@ -47,12 +47,12 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure">
   <img src="images/lst_map.png" alt="Land surface temperature map of Boston census tracts">
-  <p class="caption"><strong>Figure 1.</strong> Land surface temperatures are highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston.</p>
+  <p class="caption"><strong>Figure 1.</strong> LST is highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston.</p>
 </div>
 
 <div class="figure chart">
   <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and LST, and was used to create the residual LST map. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
+  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and LST, and was used to create the residual LST map. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in LST</p>
 </div>
 
 <div class="figure">
@@ -67,7 +67,7 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure chart">
   <img src="images/hvi_barchart.png" alt="Average land surface temperature by Heat Vulnerability Index group" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 5.</strong> Census tracts in the top 20% of the Heat Vulnerability Index experience average land surface temperatures approximately 2.6°C higher than the rest of the study area.</p>
+  <p class="caption"><strong>Figure 5.</strong> Census tracts in the top 20% of the HVI experience average LST approximately 2.6°C higher than the rest of the study area.</p>
 </div>
 
 <div class="figure chart">
