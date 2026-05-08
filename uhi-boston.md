@@ -31,7 +31,7 @@
 }
 </style>
 
-This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The satellite imagery used in the study was collected on July 30, 2025, which was selected because of minimal cloud cover and high air temperatures (~86°F) to provide reliable land surface temperature data and to capture peak urban heat island conditions.
+This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The satellite imagery used in the study was collected on July 30, 2025, which was selected because of minimal cloud cover and high air temperatures (~86°F) to provide reliable land surface temperature (LST) data and to capture peak urban heat island conditions.
 
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey 5-year estimates; accessed via NHGIS (IPUMS).
 
@@ -40,7 +40,7 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 - Percent minority & poverty rate derived from ACS data and joined to census tract geometries.
 - Correlation & regression analysis on LST vs. independent variables: NDVI, NDBI, median income, percent minority, & poverty rate.
 - Residual LST calculated as the difference between observed & predicted LST based on the regression model between LST & NDVI.
-- Heat Vulnerability Index created by normalizing and averaging LST, percent minority, & poverty rate variables.
+- Heat Vulnerability Index (HVI) created by normalizing and averaging LST, percent minority, & poverty rate variables.
 - Urban heat intervention priority areas identified by summing binary values for the top 10% highest LST, 25% highest NDBI, & 20% highest HVI tracts.
 
 ## Visualizations
@@ -52,12 +52,12 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure chart">
   <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and land surface temperature, and was used to create the residual LST map. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
+  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and LST, and was used to create the residual LST map. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in land surface temperature.</p>
 </div>
 
 <div class="figure">
   <img src="images/residual_map.png" alt="Residual land surface temperature map of Boston census tracts">
-  <p class="caption"><strong>Figure 3.</strong> Several neighborhoods in northern Boston and parts of Roxbury, Dorchester, and South Boston exhibit positive residuals, indicating factors beyond vegetation, such as building density and impervious surfaces, are contributing to higher temperatures. Coastal areas exhibit negative residuals likely due to cooling effects of the Atlantic Ocean and the Charles River.</p>
+  <p class="caption"><strong>Figure 3.</strong> Several neighborhoods in northern Boston and parts of Roxbury, Dorchester, and South Boston exhibit positive residuals, indicating factors beyond vegetation, such as building density and impervious surfaces, are contributing to higher LST. Coastal areas exhibit negative residuals likely due to cooling effects of the Atlantic Ocean and the Charles River.</p>
 </div>
 
 <div class="figure">
@@ -72,7 +72,7 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure chart">
   <img src="images/pctmin_boxplot.png" alt="Distribution of land surface temperature by minority population group" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 6.</strong> Census tracts with a lower percentage of minority population exhibit a wider temperature range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
+  <p class="caption"><strong>Figure 6.</strong> Census tracts with a lower percentage of minority population exhibit a wider LST range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
 </div>
 
 <div class="figure">
