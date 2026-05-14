@@ -65,6 +65,18 @@ title: Urban Heat Island Equity Analysis — Boston Metropolitan Area
 p, li {
   line-height: 1.7;
 }
+
+.footer-col-1 {
+  display: none;
+}
+
+.footer-col-2 {
+  display: none;
+}
+
+.footer-col-3 {
+  width: 100%;
+}
 </style>
 
 This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The satellite imagery used in the study was collected on July 30, 2025, which was selected because of minimal cloud cover and high air temperatures (~86°F) to provide reliable land surface temperature (LST) data and to capture peak urban heat island conditions.
