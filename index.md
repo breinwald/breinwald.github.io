@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # Ben Reinwald
 
 ## Environmental Systems • GIS • Remote Sensing
@@ -9,14 +13,9 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
 ## Featured Project
 
 <div class="project-card">
-
-### [Urban Heat Island Equity Analysis — Boston](./uhi-boston.md)
-
-Remote sensing analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery, census tract statistics, and environmental indicators.
-
-**Methods & Tools:**  
-QGIS • ArcGIS Pro • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
-
+  <h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis — Boston</a></h3>
+  <p>Remote sensing analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery, census tract statistics, and environmental indicators.</p>
+  <p><strong>Methods & Tools:</strong> QGIS • ArcGIS Pro • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data</p>
 </div>
 
 ---
@@ -41,11 +40,7 @@ QGIS • ArcGIS Pro • Remote Sensing • Spatial Analysis • Landsat 9 • AC
   margin-top: 0;
 }
 
-.main-content {
-  max-width: 1000px;
-}
-
-p {
-  line-height: 1.7;
+.project-card p {
+  line-height: 1.6;
 }
 </style>
