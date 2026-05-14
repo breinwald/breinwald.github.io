@@ -9,10 +9,21 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
 ## Featured Projects
 
 <div class="project-card">
+<div class="project-layout">
+<div class="project-text">
+<h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis — Boston</a></h3>
+<p>
+Remote sensing analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery, census tract statistics, and environmental indicators.
+</p>
+<p>
+<strong>Methods & Tools:</strong><br>
+QGIS • ArcGIS Pro • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
+</p>
+</div>
+<div class="project-preview">
   <img src="images/priority_map.png" alt="Urban Heat Island Analysis Map" class="project-image">
-  <h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis — Boston Metropolitan Area</a></h3>
-  <p>Analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery, census tract statistics, and environmental indicators.</p>
-  <p><strong>Methods & Tools:</strong> QGIS • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data</p>
+</div>
+</div>
 </div>
 
 ---
@@ -33,12 +44,34 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+.project-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.project-preview {
+  display: flex;
+  justify-content: center;
+}
+
 .project-image {
   width: 100%;
+  max-width: 350px;
   border-radius: 10px;
-  margin-bottom: 1rem;
   border: 1px solid #d1d5db;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 800px) {
+  .project-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .project-preview {
+    margin-top: 1rem;
+  }
 }
   
 .project-card h3 {
