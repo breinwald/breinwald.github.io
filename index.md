@@ -2,10 +2,6 @@
 title: Home
 ---
 
-# Ben Reinwald
-
-## Environmental Systems • GIS • Remote Sensing
-
 Environmental science graduate focused on geospatial analysis, remote sensing, and environmental systems research.
 
 ---
