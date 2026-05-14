@@ -57,9 +57,8 @@ QGIS • ArcGIS Pro • Remote Sensing • Spatial Analysis • Landsat 9 • AC
 }
 
 .project-image {
-  width: 350px !important;
-  max-width: 350px !important;
-  height: auto;
+  width: 100%;
+  max-width: 350px;
   border-radius: 10px;
   border: 1px solid #d1d5db;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
