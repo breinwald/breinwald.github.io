@@ -2,13 +2,14 @@
 title: Home
 ---
 # About
-Environmental science graduate focused on geospatial analysis, remote sensing, and environmental systems research.
+Environmental science graduate focused on geospatial analysis, remote sensing, and environmental systems research. Strong interests in water and wastewater systems, stormwater infrastructure, green infrastructure, and clean power.
 
 ---
 
 ## Featured Projects
 
 <div class="project-card">
+  <img src="images/priority_map.png" alt="Urban Heat Island Analysis Map" class="project-image">
   <h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis — Boston</a></h3>
   <p>Analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery, census tract statistics, and environmental indicators.</p>
   <p><strong>Methods & Tools:</strong> QGIS • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data</p>
