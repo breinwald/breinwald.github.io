@@ -13,7 +13,7 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
 <div class="project-text">
 <h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis — Boston</a></h3>
 <p>
-Remote sensing analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery, census tract statistics, and environmental indicators.
+Remote sensing and statistical analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery and census tract data.
 </p>
 <p>
 <strong>Methods & Tools:</strong><br>
