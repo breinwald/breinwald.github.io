@@ -39,4 +39,16 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
 .project-card p {
   line-height: 1.6;
 }
+
+.footer-col-1 {
+  display: none;
+}
+
+.footer-col-2 {
+  display: none;
+}
+
+.footer-col-3 {
+  width: 100%;
+}
 </style>
