@@ -88,7 +88,7 @@ Remote Sensing, Spatial Analysis, Regression Analysis
 
 <div class="factbox">
 <strong>Software</strong>
-QGIS, ArcGIS Pro
+QGIS, Google Sheets
 </div>
 
 </div>
