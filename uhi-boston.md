@@ -1,3 +1,7 @@
+---
+title: Urban Heat Island Equity Analysis — Boston Metropolitan Area
+---
+
 <style>
 .main-content {
   max-width: 1100px;
@@ -18,20 +22,20 @@
 }
 
 .figure.chart img {
-  max-width: 725px;
+  max-width: 775px;
 }
 
 .caption {
   text-align: left;
-  font-size: 0.95rem;
-  color: #555;
+  font-size: 1rem;
+  color: #444;
   margin: 0.75rem auto 0 auto;
   max-width: 1000px;
   line-height: 1.6;
 }
 
 .figure.chart .caption {
-  max-width: 725px;
+  max-width: 775px;
 }
 
 .section-divider {
@@ -60,62 +64,6 @@
 
 p, li {
   line-height: 1.7;
-}
-  
-.viz-row {
-  display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 2rem;
-  align-items: center;
-  margin: 3rem 0;
-}
-
-.viz-row.reverse {
-  grid-template-columns: 1.4fr 1fr;
-}
-
-.viz-row.reverse .viz-text {
-  order: 2;
-}
-
-.viz-row.reverse .viz-image {
-  order: 1;
-}
-
-.viz-text {
-  background: #fafafa;
-  border: 1px solid #d1d5db;
-  border-radius: 12px;
-  padding: 1.25rem;
-}
-
-.viz-text h3 {
-  margin-top: 0;
-}
-
-.viz-image img {
-  width: 100%;
-  border: 1px solid #d1d5db;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-}
-
-.viz-image.chart img {
-  max-width: 725px;
-  display: block;
-  margin: auto;
-}
-
-@media (max-width: 800px) {
-  .viz-row,
-  .viz-row.reverse {
-    grid-template-columns: 1fr;
-  }
-
-  .viz-row.reverse .viz-text,
-  .viz-row.reverse .viz-image {
-    order: initial;
-  }
 }
 </style>
 
@@ -148,37 +96,28 @@ QGIS, ArcGIS Pro
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey (ACS) 5-year estimates; accessed via NHGIS (IPUMS).
 
 <div class="section-divider"></div>
+
 ## Workflow
-- Landsat 9 used to derive LST, vegetation (NDVI), & built-up (NDBI) indices. Data aggregated to census tract level using zonal statistics.
-- Percent minority & poverty rate derived from ACS data and joined to census tract geometries.
-- Correlation & regression analysis on LST vs. independent variables: NDVI, NDBI, median income, percent minority, & poverty rate.
-- Residual LST calculated as the difference between observed & predicted LST based on the regression model between LST & NDVI.
-- Heat Vulnerability Index (HVI) created by normalizing and averaging LST, percent minority, & poverty rate variables.
-- Urban heat intervention priority areas identified by summing binary values for the top 10% highest LST, 25% highest NDBI, & 20% highest HVI tracts.
+
+- Landsat 9 used to derive LST, vegetation (NDVI), and built-up (NDBI) indices. Data were aggregated to the census tract level using zonal statistics.
+- Percent minority and poverty rate were derived from ACS data and joined to census tract geometries.
+- Correlation and regression analysis were conducted on LST and independent variables: NDVI, NDBI, median income, percent minority, and poverty rate.
+- Residual LST was calculated as the difference between observed and predicted LST based on the regression model between LST and NDVI.
+- Heat Vulnerability Index (HVI) was created by normalizing and averaging LST, percent minority, and poverty rate variables.
+- Urban heat intervention priority areas were identified by summing binary values for the top 10% highest LST, 25% highest NDBI, and 20% highest HVI tracts.
 
 <div class="section-divider"></div>
-## Visualizations
 
 ## Visualizations
 
-<div class="viz-row">
-  <div class="viz-text">
-    <h3>Land Surface Temperature</h3>
-    <p><strong>Figure 1.</strong> LST is highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston.</p>
-  </div>
-  <div class="viz-image">
-    <img src="images/lst_map.png" alt="Land surface temperature map of Boston census tracts">
-  </div>
+<div class="figure">
+  <img src="images/lst_map.png" alt="Land surface temperature map of Boston census tracts">
+  <p class="caption"><strong>Figure 1.</strong> LST is highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston.</p>
 </div>
 
-<div class="viz-row reverse">
-  <div class="viz-text">
-    <h3>Vegetation and Heat</h3>
-    <p><strong>Figure 2.</strong> The regression model shows an inverse relationship between vegetation cover and LST. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in LST.</p>
-  </div>
-  <div class="viz-image chart">
-    <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature">
-  </div>
+<div class="figure chart">
+  <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature">
+  <p class="caption"><strong>Figure 2.</strong> The regression model shows an inverse relationship between vegetation cover and LST. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in LST.</p>
 </div>
 
 <div class="figure">
@@ -192,12 +131,12 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 </div>
 
 <div class="figure chart">
-  <img src="images/hvi_barchart.png" alt="Average land surface temperature by Heat Vulnerability Index group" style="border: 1px solid #999; border-radius: 4px;">
+  <img src="images/hvi_barchart.png" alt="Average land surface temperature by Heat Vulnerability Index group">
   <p class="caption"><strong>Figure 5.</strong> Census tracts in the top 20% of the HVI experience average LST approximately 2.6°C higher than the rest of the study area.</p>
 </div>
 
 <div class="figure chart">
-  <img src="images/pctmin_boxplot.png" alt="Distribution of land surface temperature by minority population group" style="border: 1px solid #999; border-radius: 4px;">
+  <img src="images/pctmin_boxplot.png" alt="Distribution of land surface temperature by minority population group">
   <p class="caption"><strong>Figure 6.</strong> Census tracts with a lower percentage of minority population exhibit a wider LST range, possibly reflecting the presence of both dense urban areas and more vegetated neighborhoods.</p>
 </div>
 
@@ -207,12 +146,16 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 </div>
 
 <div class="section-divider"></div>
+
 ## Key Findings
-- Built environment is the primary driver of urban heat and proximity to bodies of water has a significant cooling effect.
+
+- Built environment is the primary driver of urban heat, and proximity to bodies of water has a significant cooling effect.
 - Vegetation is strongly associated with lower LST, while percent minority population and poverty rate show weaker but still meaningful spatial relationships with higher LST.
 - Socially vulnerable populations are located disproportionately in areas with higher exposure to extreme heat.
 - Urban heat intervention priority areas were identified in South Boston, the South End, Roxbury, Allston, Chelsea, Everett, Medford, and East Boston. These areas would benefit from targeted urban cooling strategies such as green infrastructure, reflective pavements or roofing, tree planting, and water features.
 
 <div class="section-divider"></div>
+
 ## Full Report
+
 [Download Full Report](./UHI_Analysis.pdf)
