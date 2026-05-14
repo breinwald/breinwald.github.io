@@ -10,7 +10,7 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
 
 ---
 
-## Featured Project
+## Featured Projects
 
 <div class="project-card">
   <h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis — Boston</a></h3>
