@@ -2,6 +2,7 @@ title: Ben Reinwald | Environmental Systems & GIS
 description: GIS, remote sensing, and environmental research portfolio
 theme: minima
 
-header_pages: []
+header_pages:
+  - index.md
 
 markdown: kramdown
