@@ -69,28 +69,6 @@ p, li {
 
 This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The satellite imagery used in the study was collected on July 30, 2025, which was selected because of minimal cloud cover and high air temperatures (~86°F) to provide reliable land surface temperature (LST) data and to capture peak urban heat island conditions.
 
-<div class="quickfacts">
-
-<div class="factbox">
-<strong>Study Area</strong>
-Boston, Massachusetts and adjacent municipalities
-</div>
-
-<div class="factbox">
-<strong>Data Sources</strong>
-Landsat 9, ACS 5-Year Estimates, MassGIS Census Tracts
-</div>
-
-<div class="factbox">
-<strong>Methods</strong>
-Remote Sensing, Spatial Analysis, Regression Analysis
-</div>
-
-<div class="factbox">
-<strong>Software</strong>
-QGIS, Google Sheets
-</div>
-
 </div>
 
 Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 American Community Survey (ACS) 5-year estimates; accessed via NHGIS (IPUMS).
