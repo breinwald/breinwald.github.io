@@ -135,3 +135,9 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 ## Full Report
 
 [Download Full Report](./UHI_Analysis.pdf)
+
+<style>
+.site-footer {
+  display: none;
+}
+</style>
