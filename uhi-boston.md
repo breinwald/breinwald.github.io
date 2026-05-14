@@ -1,5 +1,3 @@
-# Urban Heat Island Equity Analysis - Boston Metropolitan Area
-
 <style>
 .main-content {
   max-width: 1100px;
@@ -63,6 +61,62 @@
 p, li {
   line-height: 1.7;
 }
+  
+.viz-row {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.viz-row.reverse {
+  grid-template-columns: 1.4fr 1fr;
+}
+
+.viz-row.reverse .viz-text {
+  order: 2;
+}
+
+.viz-row.reverse .viz-image {
+  order: 1;
+}
+
+.viz-text {
+  background: #fafafa;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.viz-text h3 {
+  margin-top: 0;
+}
+
+.viz-image img {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.viz-image.chart img {
+  max-width: 725px;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .viz-row,
+  .viz-row.reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .viz-row.reverse .viz-text,
+  .viz-row.reverse .viz-image {
+    order: initial;
+  }
+}
 </style>
 
 This study examines urban heat island patterns across Boston, Massachusetts and adjacent municipalities using census tracts as the unit of analysis. The satellite imagery used in the study was collected on July 30, 2025, which was selected because of minimal cloud cover and high air temperatures (~86°F) to provide reliable land surface temperature (LST) data and to capture peak urban heat island conditions.
@@ -105,14 +159,26 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 <div class="section-divider"></div>
 ## Visualizations
 
-<div class="figure">
-  <img src="images/lst_map.png" alt="Land surface temperature map of Boston census tracts">
-  <p class="caption"><strong>Figure 1.</strong> LST is highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston.</p>
+## Visualizations
+
+<div class="viz-row">
+  <div class="viz-text">
+    <h3>Land Surface Temperature</h3>
+    <p><strong>Figure 1.</strong> LST is highest in Roxbury, South Boston, Allston, Cambridge, Somerville, Everett, Medford, Chelsea, and East Boston.</p>
+  </div>
+  <div class="viz-image">
+    <img src="images/lst_map.png" alt="Land surface temperature map of Boston census tracts">
+  </div>
 </div>
 
-<div class="figure chart">
-  <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature" style="border: 1px solid #999; border-radius: 4px;">
-  <p class="caption"><strong>Figure 2.</strong> The regression model (y = -34.2x + 46.8) indicates an inverse relationship between vegetation cover (NDVI) and LST, and was used to create the residual LST map. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in LST</p>
+<div class="viz-row reverse">
+  <div class="viz-text">
+    <h3>Vegetation and Heat</h3>
+    <p><strong>Figure 2.</strong> The regression model shows an inverse relationship between vegetation cover and LST. A 0.1 increase in NDVI corresponds to an approximate 3.4°C decrease in LST.</p>
+  </div>
+  <div class="viz-image chart">
+    <img src="images/ndvi_lst_scatterplot.png" alt="Scatterplot showing the relationship between NDVI and land surface temperature">
+  </div>
 </div>
 
 <div class="figure">
