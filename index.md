@@ -1,5 +1,5 @@
 ---
-title: About
+title: Home
 ---
 
 Environmental science graduate focused on geospatial analysis, remote sensing, and environmental systems research.
