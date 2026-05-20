@@ -1,5 +1,5 @@
 ---
-title: Vegetation Change and Burned Area Patterns — Peneda-Gerês National Park
+title: Vegetation Change and Burned Area Patterns - Peneda-Gerês National Park
 ---
 
 <style>
@@ -83,7 +83,9 @@ p, li {
 Photo taken in Parque Nacional Peneda-Gerês, Portugal. My family is from a village located within the park, giving this project a personal connection to the study area.
 </p>
 
-This project evaluates vegetation condition change in Parque Nacional Peneda-Gerês, Portugal, from 2014 to 2024 using Landsat 8/9 surface reflectance imagery and MODIS burned area data. The analysis compares long-term vegetation change with cumulative wildfire disturbance to examine patterns of post-fire recovery and vegetation decline.
+This project examines vegetation condition change in Parque Nacional Peneda-Gerês, Portugal, from 2014 to 2024 using Landsat 8/9 surface reflectance imagery and MODIS burned area product. The analysis compares long-term vegetation change with cumulative wildfire disturbance to examine patterns of post-fire recovery and vegetation decline.
+
+Parque Nacional Peneda-Gerês is Portugal’s only national park and its drought-tolerant landscape is characterized by forests, shrublands, and mountainous terrain. The park experiences seasonal wildfire activity characteristic of Mediterranean ecosystems and comparable to the chaparral biome found in regions such as Southern California.
 
 Datasets: Landsat 8/9 Collection 2 Level-2 Surface Reflectance, MODIS MCD64A1 Version 6.1 Burned Area Product, and World Database on Protected Areas.
 
@@ -93,7 +95,7 @@ Datasets: Landsat 8/9 Collection 2 Level-2 Surface Reflectance, MODIS MCD64A1 Ve
 
 - Used Google Earth Engine to calculate Enhanced Vegetation Index (EVI) from Landsat 8/9 imagery.
 - Masked clouds, cloud shadow, snow, and cirrus pixels using the Landsat QA_PIXEL band.
-- Created early-period and late-period growing-season mean EVI composites for 2014–2016 and 2022–2024.
+- Created early-period and late-period growing season mean EVI composites for 2014–2016 and 2022–2024.
 - Calculated net EVI change by subtracting early-period mean EVI from late-period mean EVI.
 - Used MODIS burned area data to map cumulative wildfire disturbance from 2014–2024.
 - Compared annual burned area trends with annual mean growing-season EVI.
@@ -104,12 +106,12 @@ Datasets: Landsat 8/9 Collection 2 Level-2 Surface Reflectance, MODIS MCD64A1 Ve
 
 <div class="figure">
   <img src="images/EVI_Change.png" alt="Net EVI change map for Peneda-Gerês National Park">
-  <p class="caption"><strong>Figure 1.</strong> Net Enhanced Vegetation Index (EVI) change across Peneda-Gerês National Park between 2014 and 2024. Blue areas indicate long-term increases in vegetation condition, while orange areas indicate long-term decreases. Most of the park shows relatively stable or improving vegetation condition over the study period.</p>
+  <p class="caption"><strong>Figure 1.</strong> Net Enhanced Vegetation Index (EVI) change across Peneda-Gerês National Park between 2014 and 2024. Blue areas indicate long-term increases in vegetation condition and orange areas indicate long-term decreases. Most of the park shows relatively stable or improving vegetation condition over the study period.</p>
 </div>
 
 <div class="figure">
   <img src="images/EVI_BurnedArea.png" alt="Burned area and EVI change map for Peneda-Gerês National Park">
-  <p class="caption"><strong>Figure 2.</strong> Cumulative MODIS burned area detections from 2014–2024 overlaid on net Landsat-derived EVI change. Burned areas overlap with both vegetation increases and vegetation declines, showing that wildfire disturbance did not produce a uniform long-term vegetation response across the park.</p>
+  <p class="caption"><strong>Figure 2.</strong> Cumulative MODIS burned area detections from 2014–2024 overlaid on net Landsat-derived EVI change during the study perioid. Burned areas frequently overlap with areas of both vegetation condition increases and decline; however, burned areas do not ommonly overlap with areas of no significant change in vegeation condition.</p>
 </div>
 
 <div class="figure chart">
@@ -126,10 +128,11 @@ Datasets: Landsat 8/9 Collection 2 Level-2 Surface Reflectance, MODIS MCD64A1 Ve
 
 ## Key Findings
 
-- Mean EVI increased slightly between the early study period and late study period, suggesting broadly stable or improving vegetation condition across the park.
-- Burned areas were associated with both vegetation decline and vegetation recovery, indicating that wildfire effects varied spatially.
-- The major 2016 wildfire year did not produce an immediate park-wide drop in growing-season mean EVI, likely because many fires occurred late in the season.
-- Areas burned in 2016 often showed long-term vegetation increases by 2024, suggesting post-fire recovery over the study period.
+- Mean EVI increased slightly (~0.013) between the early study period and late study period, indicating stable or improving vegetation condition in the park.
+- Burned areas were associated with both vegetation decline and vegetation recovery.
+- The major 2016 wildfire year did not produce an immediate park-wide drop in growing-season mean EVI, possibly because many fires occurred late in the growing season.
+- EVI values began rebounding after 2018 and increased through 2022, when another significant burned area year occured. Additionally, significant portions of the areas affected by the 2016 wildfires show long-term increases in EVI. Because the fire occured relatively early in the study period, these areas had additional time for post-fire regrowth and recovery by 2024
+- Wildfire activity did not correspond to immediate or uniform vegetation decline across the park, and some disturbed areas later exhibited increased vegetation greenness or density during the later study period.
 
 <div class="section-divider"></div>
 
