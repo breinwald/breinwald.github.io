@@ -1,19 +1,13 @@
 ---
 title: Home
 ---
-# About
+<div class="headshot-top">
+  <img src="images/headshot.png" alt="Ben Reinwald professional headshot" class="headshot">
+</div>
 
-<div class="about-layout">
-  <div class="about-text">
+# About
     
 Environmental science graduate focused on geospatial analysis, remote sensing, and environmental research. Strong interests in water and wastewater systems, stormwater infrastructure, green infrastructure, and clean power. Experienced with GIS and remote sensing workflows using QGIS, ArcGIS Pro, and Google Earth Engine. Seeking GIS analyst, GIS technician, environmental consultant, surveyor, or related roles.
-
- </div>
-
-  <div class="headshot-wrap">
-    <img src="images/headshot.png" alt="Ben Reinwald professional headshot" class="headshot">
-  </div>
-</div>
 ---
 
 ## Projects
@@ -61,24 +55,16 @@ Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned
 - [Resume](./resume.pdf)
 
 <style>
-.about-layout {
-  display: grid;
-  grid-template-columns: 1.7fr 0.55fr;
-  gap: 1.25rem;
-  align-items: start;
-  margin-bottom: 1.5rem;
-}
-
-.headshot-wrap {
+.headshot-top {
   display: flex;
-  justify-content: flex-start;
-  padding-top: 0.5rem;
+  justify-content: center;
+  margin: 1.5rem 0 2rem 0;
 }
 
 .headshot {
   width: 100%;
-  max-width: 170px;
-  border-radius: 12px;
+  max-width: 190px;
+  border-radius: 14px;
   border: 1px solid #d1d5db;
   box-shadow: 0 4px 12px rgba(0,0,0,0.10);
 }
