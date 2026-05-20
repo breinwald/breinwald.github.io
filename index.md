@@ -63,33 +63,24 @@ Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned
 <style>
 .about-layout {
   display: grid;
-  grid-template-columns: 1.6fr 0.8fr;
-  gap: 2rem;
-  align-items: center;
+  grid-template-columns: 1.7fr 0.55fr;
+  gap: 1.25rem;
+  align-items: start;
   margin-bottom: 1.5rem;
 }
 
 .headshot-wrap {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 0.5rem;
 }
 
 .headshot {
   width: 100%;
-  max-width: 220px;
-  border-radius: 14px;
+  max-width: 170px;
+  border-radius: 12px;
   border: 1px solid #d1d5db;
   box-shadow: 0 4px 12px rgba(0,0,0,0.10);
-}
-
-@media (max-width: 800px) {
-  .about-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .headshot {
-    max-width: 180px;
-  }
 }
   
 .project-card {
