@@ -111,7 +111,7 @@ Datasets: Landsat 8/9 Collection 2 Level-2 Surface Reflectance, MODIS MCD64A1 Ve
 
 <div class="figure">
   <img src="images/EVI_BurnedArea.png" alt="Burned area and EVI change map for Peneda-Gerês National Park">
-  <p class="caption"><strong>Figure 2.</strong> Cumulative MODIS burned area detections from 2014–2024 overlaid on net Landsat-derived EVI change during the study perioid. Burned areas frequently overlap with areas of both vegetation condition increases and decline; however, burned areas do not ommonly overlap with areas of no significant change in vegeation condition.</p>
+  <p class="caption"><strong>Figure 2.</strong> Cumulative MODIS burned area detections from 2014–2024 overlaid on net Landsat-derived EVI change during the study period. Burned areas frequently overlap with areas of both vegetation condition increases and decline; however, burned areas do not ommonly overlap with areas of no significant change in vegeation condition.</p>
 </div>
 
 <div class="figure chart">
@@ -129,10 +129,9 @@ Datasets: Landsat 8/9 Collection 2 Level-2 Surface Reflectance, MODIS MCD64A1 Ve
 ## Key Findings
 
 - Mean EVI increased slightly (~0.013) between the early study period and late study period, indicating stable or improving vegetation condition in the park.
-- Burned areas were associated with both vegetation decline and vegetation recovery.
-- The major 2016 wildfire year did not produce an immediate park-wide drop in growing-season mean EVI, possibly because many fires occurred late in the growing season.
+- Burned areas were associated with short-term vegetation decline and long-term vegetation recovery.
+- The major 2016 wildfire year did not produce an immediate park-wide decrease in growing season mean EVI, possibly because many fires occurred late in the growing season.
 - EVI values began rebounding after 2018 and increased through 2022, when another significant burned area year occured. Additionally, significant portions of the areas affected by the 2016 wildfires show long-term increases in EVI. Because the fire occured relatively early in the study period, these areas had additional time for post-fire regrowth and recovery by 2024
-- Wildfire activity did not correspond to immediate or uniform vegetation decline across the park, and some disturbed areas later exhibited increased vegetation greenness or density during the later study period.
 
 <div class="section-divider"></div>
 
