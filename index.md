@@ -1,6 +1,5 @@
 ---
-layout: page
-title:
+title: Home
 ---
 
 <div class="intro-card">
@@ -65,7 +64,7 @@ Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned
 .intro-card {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.2rem;
   border: 1px solid #d1d5db;
   border-radius: 12px;
   padding: 1.5rem;
@@ -75,8 +74,8 @@ Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned
 }
 
 .headshot-left {
-  width: 150px;
-  min-width: 150px;
+  width: 185px;
+  min-width: 185px;
   border-radius: 12px;
 }
 
