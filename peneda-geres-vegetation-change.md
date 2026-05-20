@@ -137,3 +137,6 @@ Datasets: Landsat 8/9 (Collection 2 Level-2), MODIS Burned Area Product (MCD64A1
 ## Full Report
 
 [Download Full Report](./Peneda_Geres_Vegetation_Change.pdf)
+
+## Google Earth Engine Code
+[GEE Code Snapshot](https://code.earthengine.google.com/e27e5069eaefa1c3cd6a4f4c144ee59e)
