@@ -77,7 +77,7 @@ p, li {
 }
 </style>
 
-<img src="images/peneda-geres-banner.jpeg" alt="Landscape photograph from Peneda-Gerês National Park" class="hero-image">
+<img src="images/peneda_geres_banner.jpeg" alt="Landscape photograph from Peneda-Gerês National Park" class="hero-image">
 
 <p class="hero-caption">
 Photo taken in Parque Nacional Peneda-Gerês, Portugal. My family is from a village located within the park, giving this project a personal connection to the study area.
