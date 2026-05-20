@@ -2,7 +2,7 @@
 title: Home
 ---
 # About
-Environmental science graduate focused on geospatial analysis, remote sensing, and environmental systems research. Strong interests in water and wastewater systems, stormwater infrastructure, green infrastructure, and clean power.
+Environmental science graduate focused on geospatial analysis, remote sensing, and environmental systems research. Strong interests in water and wastewater systems, stormwater infrastructure, green infrastructure, and clean power. Experienced with GIS and remote sensing workflows using QGIS, ArcGIS Pro, and Google Earth Engine. Seeking GIS analyst, GIS technician, environmental consultant, surveying, or related roles.
 
 ---
 
@@ -11,13 +11,13 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
 <div class="project-card">
 <div class="project-layout">
 <div class="project-text">
-<h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis — Boston Metropolitan Area</a></h3>
+<h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis - Boston Metropolitan Area</a></h3>
 <p>
-Remote sensing and statistical analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery and census tract data.
+Statistical and spatial analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery and census tract data.
 </p>
 <p>
 <strong>Methods & Tools:</strong><br>
-QGIS • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
+QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
 </p>
 </div>
 <div class="project-preview">
@@ -29,7 +29,7 @@ QGIS • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
 <div class="project-card">
 <div class="project-layout">
 <div class="project-text">
-<h3><a href="./peneda-geres-vegetation-change.html">Vegetation Change and Burned Area Patterns — Peneda-Gerês National Park</a></h3>
+<h3><a href="./peneda-geres-vegetation-change.html">Vegetation Change and Burned Area Patterns - Peneda-Gerês National Park</a></h3>
 <p>
 Remote sensing analysis of vegetation change and wildfire disturbance in Portugal’s only national park using Landsat 8/9 EVI composites and MODIS burned area data.
 </p>
