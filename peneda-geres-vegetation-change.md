@@ -87,7 +87,7 @@ This project examines vegetation condition change in Parque Nacional Peneda-Ger�
 
 Parque Nacional Peneda-Gerês is Portugal’s only national park and its drought-tolerant landscape is characterized by forests, shrublands, and mountainous terrain. The park experiences seasonal wildfire activity characteristic of Mediterranean ecosystems and comparable to the chaparral biome found in regions such as Southern California.
 
-Datasets: Landsat 8/9 Collection 2 Level-2 Surface Reflectance, MODIS MCD64A1 Version 6.1 Burned Area Product, and World Database on Protected Areas.
+Datasets: Landsat 8/9 (Collection 2 Level-2), MODIS Burned Area Product (MCD64A1 Version 6.1), and World Database on Protected Areas (WDPA).
 
 <div class="section-divider"></div>
 
