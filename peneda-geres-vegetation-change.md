@@ -111,7 +111,7 @@ Datasets: Landsat 8/9 (Collection 2 Level-2), MODIS Burned Area Product (MCD64A1
 
 <div class="figure">
   <img src="images/EVI_BurnedArea.png" alt="Burned area and EVI change map for Peneda-Gerês National Park">
-  <p class="caption"><strong>Figure 2.</strong> Cumulative MODIS burned area detections from 2014–2024 overlaid on Landsat-derived net EVI change during the study period. Burned areas frequently overlap with areas of both vegetation condition increases and decline; however, burned areas do not commonly overlap with areas of no significant change in vegeation condition.</p>
+  <p class="caption"><strong>Figure 2.</strong> Cumulative MODIS burned area detections from 2014–2024 overlaid on Landsat-derived net EVI change during the study period. Burned areas frequently overlap with areas of both vegetation condition increases and decline; however, burned areas do not commonly overlap with areas of no significant change in vegetation condition.</p>
 </div>
 
 <div class="figure chart">
