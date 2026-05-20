@@ -17,7 +17,7 @@ Remote sensing and statistical analysis of urban heat patterns and social vulner
 </p>
 <p>
 <strong>Methods & Tools:</strong><br>
-QGIS • ArcGIS Pro • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
+QGIS • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
 </p>
 </div>
 <div class="project-preview">
