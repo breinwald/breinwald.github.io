@@ -6,7 +6,7 @@ Environmental science graduate focused on geospatial analysis, remote sensing, a
 
 ---
 
-## Featured Projects
+## Projects
 
 <div class="project-card">
 <div class="project-layout">
@@ -26,6 +26,23 @@ QGIS • ArcGIS Pro • Remote Sensing • Spatial Analysis • Landsat 9 • AC
 </div>
 </div>
 
+<div class="project-card">
+<div class="project-layout">
+<div class="project-text">
+<h3><a href="./peneda-geres-vegetation-change.html">Vegetation Change and Burned Area Patterns — Peneda-Gerês National Park</a></h3>
+<p>
+Remote sensing analysis of vegetation change and wildfire disturbance in Portugal’s only national park using Landsat 8/9 EVI composites and MODIS burned area data.
+</p>
+<p>
+<strong>Methods & Tools:</strong><br>
+Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned Area • Vegetation Change Detection
+</p>
+</div>
+<div class="project-preview">
+  <img src="images/EVI_BurnedArea.png" alt="Peneda-Gerês vegetation change and burned area map" class="project-image">
+</div>
+</div>
+</div>
 ---
 
 ## Links
