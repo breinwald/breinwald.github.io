@@ -1,5 +1,5 @@
 ---
-title: Urban Heat Island Equity Analysis — Boston Metropolitan Area
+title: Urban Heat Island Equity Analysis - Boston Metropolitan Area
 ---
 
 <style>
@@ -115,7 +115,7 @@ Datasets: Landsat 9 (Collection 2 Level-2), 2020 Census Tracts (MassGIS), 2022 A
 
 <div class="figure">
   <img src="images/hvi_map.png" alt="Heat Vulnerability Index map of Boston census tracts">
-  <p class="caption"><strong>Figure 4.</strong> Census tracts in Roxbury, the South End, South Boston, Dorchester, Allston, Medford, Everett, Revere, and Chelsea contain the highest HVI values. These are locations where both environmental risk and social vulnerability factors are present.</p>
+  <p class="caption"><strong>Figure 4.</strong> Census tracts in Roxbury, the South End, South Boston, Dorchester, Allston, Medford, Everett, Revere, and Chelsea contain the highest HVI values. These are locations where both environmental and social vulnerability risk factors are present.</p>
 </div>
 
 <div class="figure chart">
