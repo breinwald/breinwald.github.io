@@ -2,11 +2,11 @@
 title: Home
 ---
 
-<div class="intro-section">
+<div class="intro-card">
   <img src="images/headshot.png" alt="Ben Reinwald professional headshot" class="headshot-left">
 
   <div class="intro-text">
-    <h1>About</h1>
+    <h2>About</h2>
     <p>
       Environmental science graduate focused on geospatial analysis, remote sensing, and environmental research. Strong interests in water and wastewater systems, stormwater infrastructure, green infrastructure, and clean power. Experienced with GIS and remote sensing workflows using QGIS, ArcGIS Pro, and Google Earth Engine. Seeking GIS analyst, GIS technician, environmental consultant, surveyor, or related roles.
     </p>
@@ -52,6 +52,7 @@ Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned
 </div>
 </div>
 </div>
+
 ---
 
 ## Links
@@ -60,25 +61,37 @@ Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned
 - [Resume](./resume.pdf)
 
 <style>
-.intro-section {
+.intro-card {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 1.5rem;
   margin-bottom: 2rem;
+  background-color: #fafafa;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .headshot-left {
-  width: 170px;
-  min-width: 170px;
-  border-radius: 14px;
-  border: 1px solid #d1d5db;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+  width: 150px;
+  min-width: 150px;
+  border-radius: 12px;
+}
+
+.intro-text h2 {
+  margin-top: 0;
+}
+
+.intro-text p {
+  margin-bottom: 0;
+  line-height: 1.6;
 }
 
 @media (max-width: 800px) {
-  .intro-section {
+  .intro-card {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .headshot-left {
