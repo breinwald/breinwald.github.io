@@ -83,9 +83,9 @@ p, li {
 Photo taken in Parque Nacional Peneda-Gerês, Portugal. My family is from a village located within the park, giving this project a personal connection to the study area.
 </p>
 
-This project examines vegetation condition change in the Peneda-Gerês National Park, Portugal over a ten-year period from 2014 to 2024 using multi-temporal satellite images and remote sensing analysis. Vegetation change patterns were compared with cumulative burned area to study long-term disturbance and recovery patterns within the park.
+This study examines vegetation condition change in the Peneda-Gerês National Park, Portugal over a ten-year period from 2014 to 2024 using multi-temporal satellite images and remote sensing analysis. Vegetation change was compared with cumulative burned area to study long-term disturbance and recovery patterns within the park.
 
-Parque Nacional Peneda-Gerês is Portugal’s only national park and its drought-tolerant landscape is characterized by forests, shrublands, and mountainous terrain. The park experiences seasonal wildfire activity characteristic of Mediterranean ecosystems and comparable to the chaparral biome found in regions such as Southern California. The project was conducted using Google Earth Engine for analysis and QGIS for cartographic outputs.
+Parque Nacional Peneda-Gerês is Portugal’s only national park and its drought-tolerant landscape is characterized by forests, shrublands, and mountainous terrain. The park experiences seasonal wildfire activity characteristic of Mediterranean ecosystems and comparable to the chaparral biome found in regions such as Southern California. The study was conducted using Google Earth Engine for analysis and QGIS for cartographic outputs.
 
 Datasets: Landsat 8/9 (Collection 2 Level-2), MODIS Burned Area Product (MCD64A1 Version 6.1), and World Database on Protected Areas (WDPA).
 
