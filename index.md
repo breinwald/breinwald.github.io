@@ -20,24 +20,6 @@ title: Home
 <div class="project-card">
 <div class="project-layout">
 <div class="project-text">
-<h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis - Boston Metropolitan Area</a></h3>
-<p>
-Statistical and spatial analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery and census tract data.
-</p>
-<p>
-<strong>Methods & Tools:</strong><br>
-QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
-</p>
-</div>
-<div class="project-preview">
-  <img src="images/priority_map.png" alt="Urban Heat Island Analysis Map" class="project-image">
-</div>
-</div>
-</div>
-
-<div class="project-card">
-<div class="project-layout">
-<div class="project-text">
 <h3><a href="./peneda-geres-vegetation-change.html">Vegetation Change and Burned Area Patterns - Peneda-Gerês National Park</a></h3>
 <p>
 Remote sensing analysis of vegetation change and wildfire disturbance in Portugal’s only national park using Landsat 8/9 EVI composites and MODIS burned area data.
@@ -49,6 +31,24 @@ Google Earth Engine • QGIS • Remote Sensing • Landsat 8/9 • MODIS Burned
 </div>
 <div class="project-preview">
   <img src="images/EVI_BurnedArea.png" alt="Peneda-Gerês vegetation change and burned area map" class="project-image">
+</div>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-layout">
+<div class="project-text">
+<h3><a href="./uhi-boston.html">Urban Heat Island Equity Analysis - Boston Metropolitan Area</a></h3>
+<p>
+Statistical and spatial analysis of urban heat patterns and social vulnerability across Boston using Landsat 9 imagery and census tract data.
+</p>
+<p>
+<strong>Methods & Tools:</strong><br>
+QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 • ACS Census Data
+</p>
+</div>
+<div class="project-preview">
+  <img src="images/priority_map.png" alt="Urban Heat Island Analysis Map" class="project-image">
 </div>
 </div>
 </div>
