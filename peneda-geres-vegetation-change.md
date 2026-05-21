@@ -116,7 +116,7 @@ Datasets: Landsat 8/9 (Collection 2 Level-2), MODIS Burned Area Product (MCD64A1
 
 <div class="figure chart">
   <img src="images/BurnedArea_EVIchart.png" alt="Annual burned area and mean EVI chart for Peneda-Gerês National Park">
-  <p class="caption"><strong>Figure 3.</strong> Annual burned area in hectares and mean EVI trends for Peneda-Gerês National Park from 2014-2024. Burned area peaked in 2016 and 2017, followed by a decrease in mean EVI until 2018. Mean EVI then increased after these significant wildfire events before another decline and rebound during another major wildfire year in 2022. </p>
+  <p class="caption"><strong>Figure 3.</strong> Annual burned area in hectares and mean EVI trends for Peneda-Gerês National Park from 2014-2024. Burned area peaked in 2016 and 2017, followed by a decrease in mean EVI until 2018. After these significant wildfire events, mean EVI increased before an additional decline and rebound during another major wildfire year in 2022. </p>
 </div>
 
 <div class="figure">
