@@ -83,7 +83,7 @@ p, li {
 Photo taken in Parque Nacional Peneda-Gerês, Portugal. My family is from a village located within the park, giving this project a personal connection to the study area.
 </p>
 
-This study examines vegetation change in the Peneda-Gerês National Park, Portugal over a ten-year period from 2014 to 2024 using satellite imagery from multiple time periods and remote sensing analysis. Vegetation condition was determined using the Enhanced Vegetation Index (EVI), a satellite-derived metric used to assess vegetation greenness and photosynthetic activity. Vegetation change was compared with cumulative burned area to study long-term disturbance and recovery patterns within the park. 
+This study examines vegetation change in the Peneda-Gerês National Park, Portugal over a ten-year period from 2014 to 2024 using multi-temporal satellite imagery and remote sensing analysis. Vegetation condition was determined using the Enhanced Vegetation Index (EVI), a satellite-derived metric used to assess vegetation greenness and photosynthetic activity. Vegetation change was compared with cumulative burned area to study long-term disturbance and recovery patterns within the park. 
 
 Parque Nacional Peneda-Gerês is Portugal’s only national park and its drought-tolerant landscape is characterized by forests, shrublands, and mountainous terrain. The park experiences seasonal wildfire activity characteristic of Mediterranean ecosystems and comparable to the chaparral biome found in regions such as Southern California. The study was conducted using Google Earth Engine for analysis and QGIS for cartographic outputs.
 
