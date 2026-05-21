@@ -121,7 +121,7 @@ Datasets: Landsat 8/9 (Collection 2 Level-2), MODIS Burned Area Product (MCD64A1
 
 <div class="figure">
   <img src="images/2016Fire.png" alt="2016 wildfire disturbance and long-term vegetation change map">
-  <p class="caption"><strong>Figure 4.</strong> Burned areas from the major 2016 wildfire season overlaid on cumulative EVI change from 2014-2024. Many areas affected by the 2016 wildfire show long-term increases in EVI, suggesting substantial vegetation recovery following the disturbance in this fire-adapted ecosystem. The early timing of the wildfire within the study period likely explains the observed vegetation recovery. </p>
+  <p class="caption"><strong>Figure 4.</strong> Burned areas from the major 2016 wildfire season overlaid on cumulative EVI change from 2014-2024. Many areas affected by the 2016 wildfire show long-term increases in EVI, suggesting substantial vegetation recovery following the disturbance in this fire-adapted ecosystem. The early timing of the wildfires within the study period likely explains the observed vegetation recovery. </p>
 </div>
 
 <div class="section-divider"></div>
