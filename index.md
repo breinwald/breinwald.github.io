@@ -11,7 +11,7 @@ title: Home
     <p>
       Public policy professional with experience in the Massachusetts Legislature, including legislative research, policy analysis, constituent services, stakeholder coordination, and navigating state and local government issues. My academic background is in environmental science, with additional experience in GIS, remote sensing, spatial analysis, and environmental data through independent and academic projects.
     </p>
-    <p>
+    <p class="clear-float">
       My recent GIS work includes analysis of urban heat, wildfire disturbance, vegetation change, and environmental vulnerability using QGIS, Google Earth Engine, and Google Sheets.
     </p>
     <p>
@@ -171,5 +171,9 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 
 .footer-col-3 {
   width: 100%;
+}
+
+.clear-float {
+  clear: both;
 }
 </style>
