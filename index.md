@@ -3,10 +3,11 @@ title: Home
 ---
 
 <div class="intro-card">
-  <img src="images/headshot.png" alt="Ben Reinwald professional headshot" class="headshot-left">
-
   <div class="intro-text">
     <h2>About</h2>
+     <img src="images/headshot.png"
+         alt="Ben Reinwald professional headshot"
+         class="headshot-left">
     <p>
       Public policy professional with experience in the Massachusetts Legislature, including legislative research, policy analysis, constituent services, stakeholder coordination, and navigating state and local government issues. My academic background is in environmental science, with additional experience in GIS, remote sensing, spatial analysis, and environmental data through independent and academic projects.
     </p>
@@ -68,9 +69,6 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 
 <style>
 .intro-card {
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
   border: 1px solid #d1d5db;
   border-radius: 12px;
   padding: 1.5rem;
@@ -80,9 +78,14 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 }
 
 .headshot-left {
+  float: left;
   width: 185px;
-  min-width: 185px;
+  margin: 0.25rem 1.5rem 1rem 0;
   border-radius: 12px;
+}
+
+.intro-text {
+  overflow: auto;
 }
 
 .intro-text h2 {
@@ -92,6 +95,10 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 .intro-text p {
   margin-bottom: 1rem;
   line-height: 1.6;
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 800px) {
