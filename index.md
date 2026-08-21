@@ -8,7 +8,13 @@ title: Home
   <div class="intro-text">
     <h2>About</h2>
     <p>
-      Environmental science graduate specializing in GIS, remote sensing, and spatial analysis. Experienced in developing workflows using QGIS, ArcGIS Pro, and Google Earth Engine to analyze environmental and urban systems, land cover change, and ecological disturbance. Seeking GIS analyst, GIS technician, environmental consultant, surveyor, or related roles.
+      Public policy professional with experience in the Massachusetts Legislature, including legislative research, policy analysis, constituent services, stakeholder coordination, and navigating state and local government issues. My academic background is in environmental science, with additional experience in GIS, remote sensing, spatial analysis, and environmental data through independent and academic projects.
+    </p>
+    <p>
+      My recent GIS work includes analysis of urban heat, wildfire disturbance, vegetation change, and environmental vulnerability using QGIS, Google Earth Engine, and Google Sheets.
+    </p>
+    <p>
+      I'm interested in opportunities involving GIS, environmental and spatial analysis, planning, resilience, infrastructure, and public-sector problem solving; especially roles where technical analyses inform real-world decisions and projects.
     </p>
   </div>
 </div>
@@ -55,7 +61,7 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 
 ---
 
-## Links
+## Connect
 
 - [LinkedIn](https://linkedin.com/in/benjaminreinwald)
 - [Resume](./resume.pdf)
