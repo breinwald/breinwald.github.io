@@ -67,6 +67,23 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 - [LinkedIn](https://linkedin.com/in/benjaminreinwald)
 - [Resume](./resume.pdf)
 
+<form action="https://formspree.io/f/meajdqyg" method="POST" class="contact-form">
+
+  <input type="hidden" name="_subject" value="New message from breinwald.github.io">
+
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
+
+  <button type="submit">Send Message</button>
+
+</form>
+
 <style>
 .intro-card {
   border: 1px solid #d1d5db;
@@ -175,5 +192,47 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 
 .clear-float {
   clear: both;
+}
+.contact-form {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font: inherit;
+  background-color: #fff;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: fit-content;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #f3f4f6;
 }
 </style>
