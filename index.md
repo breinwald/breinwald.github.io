@@ -90,7 +90,7 @@ QGIS • Google Sheets • Remote Sensing • Spatial Analysis • Landsat 9 •
 }
 
 .intro-text p {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   line-height: 1.6;
 }
 
