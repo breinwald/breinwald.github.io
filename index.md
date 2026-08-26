@@ -9,13 +9,10 @@ title: Home
          alt="Ben Reinwald professional headshot"
          class="headshot-left">
     <p>
-      Public policy professional with experience in the Massachusetts Legislature, including legislative research, policy analysis, constituent services, stakeholder coordination, and navigating state and local government issues. My academic background is in environmental science, with additional experience in GIS, remote sensing, spatial analysis, and environmental data through independent and academic projects.
+      Professional with experience in the Massachusetts Legislature, including legislative research, policy analysis, constituent services, stakeholder coordination, and navigating state and local government issues. My academic background is in environmental science, with additional experience in GIS, remote sensing, spatial analysis, and environmental data through independent and academic projects.
     </p>
     <p class="clear-float">
-      My recent GIS work includes analysis of urban heat, wildfire disturbance, vegetation change, and environmental vulnerability using QGIS, Google Earth Engine, and Google Sheets.
-    </p>
-    <p>
-      I'm interested in opportunities involving GIS, environmental and spatial analysis, planning, resilience, infrastructure, and public-sector problem solving; especially roles where technical analyses inform real-world decisions and projects.
+      My recent GIS work includes analysis of urban heat, wildfire disturbance, vegetation change, and environmental vulnerability using QGIS, Google Earth Engine, and Google Sheets. I'm especially interested in opportunities involving GIS, environmental and spatial analysis, planning, resilience, and infrastructure.
     </p>
   </div>
 </div>
